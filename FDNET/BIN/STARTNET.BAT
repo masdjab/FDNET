@@ -1,0 +1,3 @@
+@ECHO OFF
+
+CALL FDNET.BAT start

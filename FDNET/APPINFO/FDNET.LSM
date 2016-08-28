@@ -1,0 +1,13 @@
+Begin3
+Title:          FreeDOS Networking
+Version:        2016-08-28
+Entered-date:   2016-08-28
+Description:    basic networking support package for FreeDOS
+Keywords:       dos batch net
+Author:         Jerome Shidel <jerome _AT_ shidel.net>
+Maintained-by:  Jerome Shidel <jerome _AT_ shidel.net>
+Primary-site:   https://github.com/shidel/FDNET
+Original-site:  https://github.com/shidel/FDNET
+Platforms:      DOS
+Copying-policy: GNU General Public License, Version 2
+End
