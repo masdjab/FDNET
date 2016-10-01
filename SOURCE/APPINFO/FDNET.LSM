@@ -1,10 +1,10 @@
 Begin3
 Title:          FreeDOS Networking
-Version:        2016-08-28
-Entered-date:   2016-08-28
-Description:    basic networking support package for FreeDOS
+Version:        2016-10-01
+Entered-date:   2016-10-01
+Description:    basic networking support package for FreeDOS. (based on Rugxulo's MetaDOS)
 Keywords:       dos batch net
-Author:         Jerome Shidel <jerome _AT_ shidel.net>
+Author:         Jerome Shidel and Rugxulo
 Maintained-by:  Jerome Shidel <jerome _AT_ shidel.net>
 Primary-site:   https://github.com/shidel/FDNET
 Original-site:  https://github.com/shidel/FDNET
