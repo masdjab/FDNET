@@ -58,7 +58,7 @@ vecho /fLightGreen QEMU network detected. /fGrey /p
 goto vmGeneric
 
 :vmVirtualBox
-vecho /fLightGreen VirtualBOX ntwork detected. /fGrey /p
+vecho /fLightGreen VirtualBOX network detected. /fGrey /p
 goto vmGeneric
 
 :vmVMware
