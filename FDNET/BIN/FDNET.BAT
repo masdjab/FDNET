@@ -54,15 +54,16 @@ vecho /fLightRed DOSBox networking is not supported at this time. /fGrey /p
 goto End
 
 :vmQEMU
-vecho /fLightGreen QEMU detected. /fGrey /p
+vecho /fLightGreen QEMU network detected. /fGrey /p
 goto vmGeneric
 
 :vmVirtualBox
-vecho /fLightGreen VirtualBOX detected. /fGrey /p
+vecho /fLightGreen VirtualBOX ntwork detected. /fGrey /p
 goto vmGeneric
 
 :vmVMware
-vecho /fLightGreen VMware detected. /fGrey /p
+vecho /fLightGreen VMware network detected. /fGrey /p
+SET NOTES=Please ensure VMware networking is configured for /fYellow Bridged /fLightCyan mode.
 goto vmGeneric
 
 :vmGeneric
@@ -118,6 +119,7 @@ ne2000.com -u
 ne2000.com 0x60 0x5 0x300
 goto finish
 
+:finish
 REM ---------------------------------------------------------------------------
 REM End of Cut and Paste
 REM ---------------------------------------------------------------------------
@@ -125,8 +127,8 @@ REM ---------------------------------------------------------------------------
 :DHCP
 DHCP.EXE
 
-if "%NOTES% == "" goto End
-vecho %NOTES%
+if "%NOTES%" == "" goto End
+vecho /p /fCyan %NOTES% /fGrey /p
 SET NOTES=
 
 :End
