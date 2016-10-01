@@ -63,7 +63,7 @@ goto vmGeneric
 
 :vmVMware
 vecho /fLightGreen VMware network detected. /fGrey /p
-SET NOTES=Please ensure VMware networking is configured for /fYellow Bridged /fLightCyan mode.
+SET NOTES=Please ensure VMware networking is configured for /fYellow Bridged fLightGreen mode.
 goto vmGeneric
 
 :vmGeneric
@@ -128,7 +128,7 @@ REM ---------------------------------------------------------------------------
 DHCP.EXE
 
 if "%NOTES%" == "" goto End
-vecho /p /fCyan %NOTES% /fGrey /p
+vecho /p /fLightGreen %NOTES% /fGrey /p
 SET NOTES=
 
 :End
