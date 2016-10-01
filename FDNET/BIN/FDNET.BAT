@@ -63,7 +63,7 @@ goto vmGeneric
 
 :vmVMware
 vecho /fLightGreen VMware network detected. /fGrey /p
-SET NOTES=Please ensure VMware networking is configured for /fYellow Bridged fLightGreen mode.
+SET NOTES=Please ensure VMware networking is configured for /fYellow Bridged /fLightGreen mode.
 goto vmGeneric
 
 :vmGeneric
